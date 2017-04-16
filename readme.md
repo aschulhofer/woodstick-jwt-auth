@@ -1,4 +1,4 @@
-# JWT lumen authenticatin
+# JWT lumen authentication
 
 ## Lumen
 
