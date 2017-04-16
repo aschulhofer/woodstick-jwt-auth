@@ -1,0 +1,23 @@
+{
+    "name": "aschulhofer/woodstick-jwt-auth",
+    "require": {
+      "php": ">=5.6.4",
+      "aschulhofer/woodstick-jwt": "0.0.*",
+      "illuminate/auth": "5.4.*",
+      "illuminate/http": "5.4.*",
+      "illuminate/contracts": "5.4.*",
+      "illuminate/support": "5.4.*",
+      "illuminate/database": "5.4.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:aschulhofer/woodstick-jwt.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Woodstick\\": "src/Woodstick/"
+        }
+    }
+}
