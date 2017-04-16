@@ -1,5 +1,25 @@
 # JWT lumen authentication
 
+### Require as composer dependency
+
+add dependency to `composer.json`:
+`"aschulhofer/woodstick-jwt-auth": "0.0.*"`
+
+add repositories if not present:
+```php
+"repositories": [
+    {
+        "type": "vcs",
+        "url":  "git@github.com:aschulhofer/woodstick-jwt-auth.git"
+    },
+    {
+        "type": "vcs",
+        "url":  "git@github.com:aschulhofer/woodstick-jwt.git"
+    }
+],
+
+```
+
 ## Lumen
 
 ### Environment
